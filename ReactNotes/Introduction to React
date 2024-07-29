@@ -1,0 +1,11 @@
+--React is used to develope Complex Frontend designs. React is used to make a sync between the UI(DOM) and State(JS). 
+  React does not change the complete the complete DOM on any change.It only compare the Browswer DOM Tree(rendreing tree) and the own Dom tree and 
+  make changes. Thus, it make the Page faster then JavaScript and not need to reload the Page.
+--React developing a Single Page Application(SPAs). So, their is a prooblem to went from one route to other to correct this React Router Dom 
+  is Used.
+--Difference Between FrameWork And Library-->
+       FrameWork--> Having some rules of implementation and use 
+       Librabry--> Free to use Without any Rule
+-- React is a  Library.
+-- Firstly,react was develope to solve the Problem of Ghost massage Problem.
+
