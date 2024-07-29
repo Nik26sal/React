@@ -9,3 +9,10 @@
 -- React is a  Library.
 -- Firstly,react was develope to solve the Problem of Ghost massage Problem.
 -- Hooks are used to handle the variables in React
+
+--In react two type of Components are Present
+-1- ClassBased Componenets
+-2- FunctionalBased Components
+
+--Functional Based Components is More Presice and Easily Readable ways to write the React Components.
+  Class Based Components are the older way to write the components in React..
