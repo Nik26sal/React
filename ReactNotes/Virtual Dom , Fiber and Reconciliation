@@ -1,0 +1,44 @@
+--Hydration--> Injecting the JavaScript in Rendering Tree or Dom Tree called as Hydration.
+
+--Page Reloading(Hot Reloading)--> It means that Browser Remove or Destroy here Tree and repaint a new Dom tree.
+
+--By the Method present in React named as 'createRoot' the virtual Dom is Create by the JavaScript and the work of Reconcilition is done.
+
+--By the help of this Virtual Dom  and the Reconciliation the Reloading process become more Faster and Efficient.
+
+--Reconciliation--> Comparing own DOM Structure and the Browser Dom structure called as Reconciliation.
+
+                            or 
+
+                    diff one tree to Another
+
+--For Updating then Virtual Dom the algorithm that used called as Fibre.
+
+-- The Concept of Fibre is Come in chapter because the react imediately mke    updation on any changing request. This mainly affect the animations,layout
+   and Gestures
+
+-- Fibre has a feature of Pause,abort and reuse of work as a new updation comes in.It has Also have ability to assign priority to differnt type of updates.It also improve the process of Hydration.
+
+-- In present time fibre is well implemented algorithms.
+
+--Update --> A change in the data used to render a React app.
+
+The key points of fiber algorithm are:
+
+--1.Different component types are assumed to generate substantially different trees. React will not attempt to diff them, but rather replace the old tree completely.
+
+--2.Diffing of lists is performed using keys. Keys should be "stable, predictable, and unique."
+
+The key points are:
+
+--1.In a UI, it's not necessary for every update to be applied immediately; in fact, doing so can be wasteful, causing frames to drop and degrading the user experience.
+--2.Different types of updates have different priorities — an animation update needs to complete more quickly than, say, an update from a data store.
+--3.A push-based approach requires the app (you, the programmer) to decide how to schedule work. 
+    A pull-based approach allows the framework (React) to be smart and make those decisions for you.
+
+--We've established that a primary goal of Fiber is to enable React to take advantage of scheduling. Specifically, we need to be able to
+
+--1.pause work and come back to it later.
+--2.assign priority to different types of work.
+--3.reuse previously completed work.
+--4.abort work if it's no longer needed.
