@@ -42,3 +42,28 @@ The key points are:
 --2.assign priority to different types of work.
 --3.reuse previously completed work.
 --4.abort work if it's no longer needed.
+
+
+-- The practical example of fiber algorithms are counter project.
+   In the counter project if the addValue Function have move number of same function than it only check the update that 
+   done at last.
+
+   example--
+            const[count,setCount] = useState(15);
+            AddValue(){
+                setCount(count+1);
+                setCount(count+1);
+                setCount(count+1);
+                setCount(count+1);
+            }
+          // According to you the answer is 19 but the answer is 16 the reason in it was fibre algorithm
+             if you want to get the output as 19
+             then the code for it was...
+
+             AddValue(){
+                setCount(prevcount -> prevcount+1);
+                setCount(prevcount -> prevcount+1);
+                setCount(prevcount -> prevcount+1);
+                setCount(prevcount -> prevcount+1);
+            }
+           // then you get the output as 19 
