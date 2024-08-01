@@ -1,0 +1,7 @@
+--useEffect is a React Hook that lets you synchronize a component with an external system.
+--it is used when user want to repeat the function again and again on chnaging of some dependencies
+--useEffect(callbackFunction//setup,Dependencies);
+--Here Dependencies are such thing that are make the chnace to re reun this callback function or invoke that function 
+  but it is done when their state change.
+-- return undefined
+
