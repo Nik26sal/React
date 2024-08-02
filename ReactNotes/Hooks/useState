@@ -1,0 +1,6 @@
+use state hook in react is used to add the state variable in the component
+it has two paraments
+Example const[state,setState] = useState(initialState);       
+        --In the given example the state is the varaible that initial contains the initial value
+          set state is act as a callback function that is used to change the value and state of that 
+          state variable.

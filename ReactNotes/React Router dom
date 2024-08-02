@@ -1,0 +1,23 @@
+Ques1.What is React router Dom?
+Answer..React Router DOM is an npm package that enables you to implement dynamic routing in a web app. 
+      --It allows you to display pages and allow users to navigate them.
+      --It is a fully-featured client and server-side routing library for React. 
+      --React Router Dom is used to build single-page applications i.e. applications that have many 
+       pages or components but the page is never refreshed instead the content is dynamically fetched based on the URL. 
+      --This process is called Routing and it is made possible with the help of React Router Dom.
+
+Link -- It present in a React router Dom.This is same as the anchor tag(a) in HTML but the difference is only that the anchor
+        tag make the complete new page or render it but the Link tag only make changes on that page thus it save time and optimize the code.
+
+NavLink -- It present in the React router Dom.It have isActive key in it. the class are written in the callback function.
+
+outlet -- In React Router DOM, the Outlet component is a special component used for nested routing. 
+          It acts as a placeholder in parent routes where child routes should render.
+
+RouterProvider  --The RouterProvider component in React Router DOM v6 is used to provide the router instance to your application. 
+                --It acts as a context provider for the router, allowing nested routes to be rendered and enabling navigation throughout
+                  the app.It want router for execution.
+createBrowserRouter -- used to create routes
+createRoutesFromElements -- also used to create routes by provinding elements.
+
+useloaderData -- used to load the data.
