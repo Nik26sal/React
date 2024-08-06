@@ -16,3 +16,7 @@
 
 --Functional Based Components is More Presice and Easily Readable ways to write the React Components.
   Class Based Components are the older way to write the components in React..
+
+
+-- React and react dom is used to make web app
+-- webvital used to track performance
