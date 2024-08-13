@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { TodoContext } from '../context/ToDo.js';
 
-function TodoForm() {
+function ToDoForm() {
     const [todo, setTodo] = useState("")
     const {addMsg} = TodoContext()
 
@@ -30,4 +30,4 @@ function TodoForm() {
   );
 }
 
-export default TodoForm;
+export default ToDoForm;

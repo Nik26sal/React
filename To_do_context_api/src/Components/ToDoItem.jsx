@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { TodoContext} from '../context/ToDo.js';
 
-function TodoItem({ todo }) {
+function ToDoItem({ todo }) {
   const [isTodoEditable, setIsTodoEditable] = useState(false)
   const [todoMsg, setTodoMsg] = useState(todo.todo)
   const {updateMsg, deleteMsg, toggleMsg} = TodoContext()
@@ -59,4 +59,4 @@ function TodoItem({ todo }) {
   );
 }
 
-export default TodoItem;
+export default ToDoItem;
