@@ -7,9 +7,7 @@ function ToDoForm() {
 
     const add = (e) => {
       e.preventDefault()
-
       if (!todo) return
-
       addMsg({ todo, completed: false})
       setTodo("")
     }

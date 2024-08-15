@@ -7,7 +7,7 @@ function App() {
   const [Todos, setTodos] = useState([]);
 
   const addMsg = (todo)=>{
-    setTodos((prev)=>[{id:Date.now,...todo},...prev])
+    setTodos((prev)=>[{id:Date.now(),...todo},...prev])
   }
 
   const deleteMsg = (id)=>{
