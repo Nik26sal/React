@@ -5,14 +5,14 @@
   is Used.
 --Difference Between FrameWork And Library-->
        FrameWork--> Having some rules of implementation and use 
-       Librabry--> Free to use Without any Rule
+       Library--> Free to use Without any Rule
 -- React is a  Library.
 -- Firstly,react was develope to solve the Problem of Ghost massage Problem.
 -- Hooks are used to handle the variables in React
 
 --In react two type of Components are Present
--1- ClassBased Componenets
--2- FunctionalBased Components
+-1- Class Based Componenets
+-2- Functional Based Components
 
 --Functional Based Components is More Presice and Easily Readable ways to write the React Components.
   Class Based Components are the older way to write the components in React..
@@ -20,3 +20,9 @@
 
 -- React and react dom is used to make web app
 -- webvital used to track performance
+-- webpack : its a command line tool
+             1.Bundling : bundle one file into one file
+             2.transpiling : convert newJs code in olderJs eg.babel
+             3.Assetes Management : svgs,videofile,musicFile etc
+             4.code Splitting : divide all the code into chunks 
+             
